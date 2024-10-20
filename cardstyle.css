@@ -1,0 +1,76 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    /* height:100%;
+    width:100%; */
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+.card{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    height:350px;
+    width:300px;
+    border:1px;
+    border-radius:25px;
+    border-color: black;
+    border-style:solid;
+    border-width:1px;
+    overflow: hidden;
+
+}
+#b1{
+    z-index:6;
+    rotate:-8deg;
+}
+#b1:hover{
+    z-index:50;
+}
+#b2{
+    z-index:5;
+    rotate:-16deg;
+}
+#b2:hover{
+    z-index:50;
+}
+#b3{
+    z-index:4;
+    rotate:-24deg;
+}
+#b3:hover{
+    z-index:50;
+}
+#b4{
+    z-index:3;
+    rotate:-32deg;
+}
+#b4:hover{
+    z-index:50;
+}
+#b5{
+    z-index:2;
+    rotate:-40deg;
+}
+#b5:hover{
+    z-index:50;
+}
+#b6{
+    z-index:1;
+    rotate:-48deg;
+}
+#b6:hover{
+    z-index:50;
+}
+img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
